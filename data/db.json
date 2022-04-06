@@ -10,7 +10,12 @@
       "machineChecklist": [
         {
           "question": " Steering Oil Level & leaks (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 2,
           "expectedValue": "Y",
           "isRequired": "",
@@ -20,7 +25,12 @@
         },
         {
           "question": "Brakes (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 3,
           "expectedValue": "Y",
           "isRequired": "",
@@ -30,7 +40,12 @@
         },
         {
           "question": "Fire Ext &/or Fire Supression Unit - (extinguisherpresent and in date)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 4,
           "expectedValue": "Y",
           "isRequired": "",
@@ -40,7 +55,12 @@
         },
         {
           "question": "EStop Functioning (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 5,
           "expectedValue": "Y",
           "isRequired": "",
@@ -50,7 +70,12 @@
         },
         {
           "question": "Horn (serviceable or N/A if not-installed))",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 6,
           "expectedValue": "Y",
           "isRequired": "",
@@ -60,7 +85,12 @@
         },
         {
           "question": "Seat Belt and Mounting (intact & servicable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 7,
           "expectedValue": "Y",
           "isRequired": "",
@@ -70,7 +100,12 @@
         },
         {
           "question": "Reversing Alarm (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 8,
           "expectedValue": "Y",
           "isRequired": "",
@@ -80,7 +115,12 @@
         },
         {
           "question": "Rotating or Flashing Beacon (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 9,
           "expectedValue": "Y",
           "isRequired": "",
@@ -90,7 +130,12 @@
         },
         {
           "question": "ROPS intact",
-          "choices": [{ "label": "PASS", "value": "N" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "N"
+            }
+          ],
           "itemID": 10,
           "expectedValue": "Y",
           "isRequired": "",
@@ -100,7 +145,12 @@
         },
         {
           "question": "Safety pin in use",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 11,
           "expectedValue": "Y",
           "isRequired": "",
@@ -110,7 +160,12 @@
         },
         {
           "question": " Tracks/ Tyres/ Rollers (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 12,
           "expectedValue": "Y",
           "isRequired": "",
@@ -120,7 +175,12 @@
         },
         {
           "question": " Windows and mirrors (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 13,
           "expectedValue": "Y",
           "isRequired": "",
@@ -130,7 +190,12 @@
         },
         {
           "question": "Hydraulic oil check level & leaks (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 14,
           "expectedValue": "Y",
           "isRequired": "",
@@ -140,7 +205,12 @@
         },
         {
           "question": " Gauges serviceable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 15,
           "expectedValue": "Y",
           "isRequired": "",
@@ -150,7 +220,12 @@
         },
         {
           "question": " Transmission oil check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 16,
           "expectedValue": "Y",
           "isRequired": "",
@@ -160,7 +235,12 @@
         },
         {
           "question": "Two way radio (serviceable or N/A if not-installed) use handheld if not Pass",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 17,
           "expectedValue": "Y",
           "isRequired": "",
@@ -170,7 +250,12 @@
         },
         {
           "question": "Steps, rails and hand holds (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 18,
           "expectedValue": "Y",
           "isRequired": "",
@@ -180,7 +265,12 @@
         },
         {
           "question": "Seat functional (no faults)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 19,
           "expectedValue": "Y",
           "isRequired": "",
@@ -190,7 +280,12 @@
         },
         {
           "question": "Radiator check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 20,
           "expectedValue": "Y",
           "isRequired": "",
@@ -201,7 +296,12 @@
         {
           "question": "GETS and bucket damage (serviceable or N/A if not-installed)",
           "Title": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 22,
           "expectedValue": "Y",
           "isRequired": "",
@@ -211,7 +311,12 @@
         },
         {
           "question": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 23,
           "expectedValue": "Y",
           "isRequired": "",
@@ -221,7 +326,12 @@
         },
         {
           "question": "Window wipers (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 24,
           "expectedValue": "Y",
           "isRequired": "",
@@ -231,7 +341,12 @@
         },
         {
           "question": "Air conditioner working (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 25,
           "expectedValue": "Y",
           "isRequired": "",
@@ -241,7 +356,12 @@
         },
         {
           "question": "Lights & indicators (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 26,
           "expectedValue": "Y",
           "isRequired": "",
@@ -251,7 +371,12 @@
         },
         {
           "question": "Air filters - inner filter is clean",
-          "choices": [{ "label": "Yes", "value": "Y" }],
+          "choices": [
+            {
+              "label": "Yes",
+              "value": "Y"
+            }
+          ],
           "itemID": 27,
           "expectedValue": "Y",
           "isRequired": "",
@@ -261,7 +386,12 @@
         },
         {
           "question": "Check for material in muffler housing",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 28,
           "expectedValue": "Y",
           "isRequired": "",
@@ -271,7 +401,12 @@
         },
         {
           "question": "Pins and bushes wear",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 29,
           "expectedValue": "Y",
           "isRequired": "",
@@ -291,7 +426,12 @@
       "machineChecklist": [
         {
           "question": " Steering Oil Level & leaks (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 2,
           "expectedValue": "Y",
           "isRequired": "",
@@ -301,7 +441,12 @@
         },
         {
           "question": "Brakes (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 3,
           "expectedValue": "Y",
           "isRequired": "",
@@ -311,7 +456,12 @@
         },
         {
           "question": "Fire Ext &/or Fire Supression Unit - (extinguisherpresent and in date)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 4,
           "expectedValue": "Y",
           "isRequired": "",
@@ -321,7 +471,12 @@
         },
         {
           "question": "EStop Functioning (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 5,
           "expectedValue": "Y",
           "isRequired": "",
@@ -331,7 +486,12 @@
         },
         {
           "question": "Horn (serviceable or N/A if not-installed))",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 6,
           "expectedValue": "Y",
           "isRequired": "",
@@ -341,7 +501,12 @@
         },
         {
           "question": "Seat Belt and Mounting (intact & servicable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 7,
           "expectedValue": "Y",
           "isRequired": "",
@@ -351,7 +516,12 @@
         },
         {
           "question": "Reversing Alarm (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 8,
           "expectedValue": "Y",
           "isRequired": "",
@@ -361,7 +531,12 @@
         },
         {
           "question": "Rotating or Flashing Beacon (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 9,
           "expectedValue": "Y",
           "isRequired": "",
@@ -371,7 +546,12 @@
         },
         {
           "question": "ROPS intact",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 10,
           "expectedValue": "Y",
           "isRequired": "",
@@ -381,7 +561,12 @@
         },
         {
           "question": "Safety pin in use",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 11,
           "expectedValue": "Y",
           "isRequired": "",
@@ -391,7 +576,12 @@
         },
         {
           "question": " Tracks/ Tyres/ Rollers (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 12,
           "expectedValue": "Y",
           "isRequired": "",
@@ -401,7 +591,12 @@
         },
         {
           "question": " Windows and mirrors (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "N" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "N"
+            }
+          ],
           "itemID": 13,
           "expectedValue": "Y",
           "isRequired": "",
@@ -411,7 +606,12 @@
         },
         {
           "question": "Hydraulic oil check level & leaks (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 14,
           "expectedValue": "Y",
           "isRequired": "",
@@ -421,7 +621,12 @@
         },
         {
           "question": " Gauges serviceable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 15,
           "expectedValue": "Y",
           "isRequired": "",
@@ -431,7 +636,12 @@
         },
         {
           "question": " Transmission oil check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 16,
           "expectedValue": "Y",
           "isRequired": "",
@@ -441,7 +651,12 @@
         },
         {
           "question": "Two way radio (serviceable or N/A if not-installed) use handheld if not Pass",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 17,
           "expectedValue": "Y",
           "isRequired": "",
@@ -451,7 +666,12 @@
         },
         {
           "question": "Steps, rails and hand holds (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 18,
           "expectedValue": "Y",
           "isRequired": "",
@@ -461,7 +681,12 @@
         },
         {
           "question": "Seat functional (no faults)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 19,
           "expectedValue": "Y",
           "isRequired": "",
@@ -471,7 +696,12 @@
         },
         {
           "question": "Radiator check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 20,
           "expectedValue": "Y",
           "isRequired": "",
@@ -482,7 +712,12 @@
         {
           "question": "GETS and bucket damage (serviceable or N/A if not-installed)",
           "Title": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "N" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "N"
+            }
+          ],
           "itemID": 22,
           "expectedValue": "Y",
           "isRequired": "",
@@ -492,7 +727,12 @@
         },
         {
           "question": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 23,
           "expectedValue": "Y",
           "isRequired": "",
@@ -502,7 +742,12 @@
         },
         {
           "question": "Window wipers (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 24,
           "expectedValue": "Y",
           "isRequired": "",
@@ -512,7 +757,12 @@
         },
         {
           "question": "Air conditioner working (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 25,
           "expectedValue": "Y",
           "isRequired": "",
@@ -522,7 +772,12 @@
         },
         {
           "question": "Lights & indicators (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 26,
           "expectedValue": "Y",
           "isRequired": "",
@@ -532,7 +787,12 @@
         },
         {
           "question": "Air filters - inner filter is clean",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 27,
           "expectedValue": "Y",
           "isRequired": "",
@@ -542,7 +802,12 @@
         },
         {
           "question": "Check for material in muffler housing",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 28,
           "expectedValue": "Y",
           "isRequired": "",
@@ -552,7 +817,12 @@
         },
         {
           "question": "Pins and bushes wear",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 29,
           "expectedValue": "Y",
           "isRequired": "",
@@ -572,7 +842,12 @@
       "machineChecklist": [
         {
           "question": " Steering Oil Level & leaks (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "N" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "N"
+            }
+          ],
           "itemID": 2,
           "expectedValue": "Y",
           "isRequired": "",
@@ -582,7 +857,12 @@
         },
         {
           "question": "Brakes (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 3,
           "expectedValue": "Y",
           "isRequired": "",
@@ -592,7 +872,12 @@
         },
         {
           "question": "Fire Ext &/or Fire Supression Unit - (extinguisherpresent and in date)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 4,
           "expectedValue": "Y",
           "isRequired": "",
@@ -602,7 +887,12 @@
         },
         {
           "question": "EStop Functioning (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 5,
           "expectedValue": "Y",
           "isRequired": "",
@@ -612,7 +902,12 @@
         },
         {
           "question": "Horn (serviceable or N/A if not-installed))",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 6,
           "expectedValue": "Y",
           "isRequired": "",
@@ -622,7 +917,12 @@
         },
         {
           "question": "Seat Belt and Mounting (intact & servicable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 7,
           "expectedValue": "Y",
           "isRequired": "",
@@ -632,7 +932,12 @@
         },
         {
           "question": "Reversing Alarm (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 8,
           "expectedValue": "Y",
           "isRequired": "",
@@ -642,7 +947,12 @@
         },
         {
           "question": "Rotating or Flashing Beacon (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 9,
           "expectedValue": "Y",
           "isRequired": "",
@@ -652,7 +962,12 @@
         },
         {
           "question": "ROPS intact",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 10,
           "expectedValue": "Y",
           "isRequired": "",
@@ -662,7 +977,12 @@
         },
         {
           "question": "Safety pin in use",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 11,
           "expectedValue": "Y",
           "isRequired": "",
@@ -672,7 +992,12 @@
         },
         {
           "question": " Tracks/ Tyres/ Rollers (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 12,
           "expectedValue": "Y",
           "isRequired": "",
@@ -682,7 +1007,12 @@
         },
         {
           "question": " Windows and mirrors (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 13,
           "expectedValue": "Y",
           "isRequired": "",
@@ -692,7 +1022,12 @@
         },
         {
           "question": "Hydraulic oil check level & leaks (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 14,
           "expectedValue": "Y",
           "isRequired": "",
@@ -702,7 +1037,12 @@
         },
         {
           "question": " Gauges serviceable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 15,
           "expectedValue": "Y",
           "isRequired": "",
@@ -712,7 +1052,12 @@
         },
         {
           "question": " Transmission oil check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 16,
           "expectedValue": "Y",
           "isRequired": "",
@@ -722,7 +1067,12 @@
         },
         {
           "question": "Two way radio (serviceable or N/A if not-installed) use handheld if not Pass",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 17,
           "expectedValue": "Y",
           "isRequired": "",
@@ -732,7 +1082,12 @@
         },
         {
           "question": "Steps, rails and hand holds (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 18,
           "expectedValue": "Y",
           "isRequired": "",
@@ -742,7 +1097,12 @@
         },
         {
           "question": "Seat functional (no faults)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 19,
           "expectedValue": "Y",
           "isRequired": "",
@@ -752,7 +1112,12 @@
         },
         {
           "question": "Radiator check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 20,
           "expectedValue": "Y",
           "isRequired": "",
@@ -763,7 +1128,12 @@
         {
           "question": "GETS and bucket damage (serviceable or N/A if not-installed)",
           "Title": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 22,
           "expectedValue": "Y",
           "isRequired": "",
@@ -773,7 +1143,12 @@
         },
         {
           "question": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 23,
           "expectedValue": "Y",
           "isRequired": "",
@@ -783,7 +1158,12 @@
         },
         {
           "question": "Window wipers (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 24,
           "expectedValue": "Y",
           "isRequired": "",
@@ -793,7 +1173,12 @@
         },
         {
           "question": "Air conditioner working (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 25,
           "expectedValue": "Y",
           "isRequired": "",
@@ -803,7 +1188,12 @@
         },
         {
           "question": "Lights & indicators (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 26,
           "expectedValue": "Y",
           "isRequired": "",
@@ -813,7 +1203,12 @@
         },
         {
           "question": "Air filters - inner filter is clean",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 27,
           "expectedValue": "Y",
           "isRequired": "",
@@ -823,7 +1218,12 @@
         },
         {
           "question": "Check for material in muffler housing",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 28,
           "expectedValue": "Y",
           "isRequired": "",
@@ -833,7 +1233,12 @@
         },
         {
           "question": "Pins and bushes wear",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 29,
           "expectedValue": "Y",
           "isRequired": "",
@@ -853,7 +1258,12 @@
       "machineChecklist": [
         {
           "question": " Steering Oil Level & leaks (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 2,
           "expectedValue": "Y",
           "isRequired": "",
@@ -863,7 +1273,12 @@
         },
         {
           "question": "Brakes (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 3,
           "expectedValue": "Y",
           "isRequired": "",
@@ -873,7 +1288,12 @@
         },
         {
           "question": "Fire Ext &/or Fire Supression Unit - (extinguisherpresent and in date)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 4,
           "expectedValue": "Y",
           "isRequired": "",
@@ -883,7 +1303,12 @@
         },
         {
           "question": "EStop Functioning (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 5,
           "expectedValue": "Y",
           "isRequired": "",
@@ -893,7 +1318,12 @@
         },
         {
           "question": "Horn (serviceable or N/A if not-installed))",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 6,
           "expectedValue": "Y",
           "isRequired": "",
@@ -903,7 +1333,12 @@
         },
         {
           "question": "Seat Belt and Mounting (intact & servicable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 7,
           "expectedValue": "Y",
           "isRequired": "",
@@ -913,7 +1348,12 @@
         },
         {
           "question": "Reversing Alarm (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 8,
           "expectedValue": "Y",
           "isRequired": "",
@@ -923,7 +1363,12 @@
         },
         {
           "question": "Rotating or Flashing Beacon (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 9,
           "expectedValue": "Y",
           "isRequired": "",
@@ -933,7 +1378,12 @@
         },
         {
           "question": "ROPS intact",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 10,
           "expectedValue": "Y",
           "isRequired": "",
@@ -943,7 +1393,12 @@
         },
         {
           "question": "Safety pin in use",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 11,
           "expectedValue": "Y",
           "isRequired": "",
@@ -953,7 +1408,12 @@
         },
         {
           "question": " Tracks/ Tyres/ Rollers (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 12,
           "expectedValue": "Y",
           "isRequired": "",
@@ -963,7 +1423,12 @@
         },
         {
           "question": " Windows and mirrors (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 13,
           "expectedValue": "Y",
           "isRequired": "",
@@ -973,7 +1438,12 @@
         },
         {
           "question": "Hydraulic oil check level & leaks (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 14,
           "expectedValue": "Y",
           "isRequired": "",
@@ -983,7 +1453,12 @@
         },
         {
           "question": " Gauges serviceable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 15,
           "expectedValue": "Y",
           "isRequired": "",
@@ -993,7 +1468,12 @@
         },
         {
           "question": " Transmission oil check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 16,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1003,7 +1483,12 @@
         },
         {
           "question": "Two way radio (serviceable or N/A if not-installed) use handheld if not Pass",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 17,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1013,7 +1498,12 @@
         },
         {
           "question": "Steps, rails and hand holds (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 18,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1023,7 +1513,12 @@
         },
         {
           "question": "Seat functional (no faults)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 19,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1033,7 +1528,12 @@
         },
         {
           "question": "Radiator check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 20,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1044,7 +1544,12 @@
         {
           "question": "GETS and bucket damage (serviceable or N/A if not-installed)",
           "Title": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 22,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1054,7 +1559,12 @@
         },
         {
           "question": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 23,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1064,7 +1574,12 @@
         },
         {
           "question": "Window wipers (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 24,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1074,7 +1589,12 @@
         },
         {
           "question": "Air conditioner working (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 25,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1084,7 +1604,12 @@
         },
         {
           "question": "Lights & indicators (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 26,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1094,7 +1619,12 @@
         },
         {
           "question": "Air filters - inner filter is clean",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 27,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1104,7 +1634,12 @@
         },
         {
           "question": "Check for material in muffler housing",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 28,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1114,7 +1649,12 @@
         },
         {
           "question": "Pins and bushes wear",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 29,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1134,7 +1674,12 @@
       "machineChecklist": [
         {
           "question": " Steering Oil Level & leaks (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 2,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1144,7 +1689,12 @@
         },
         {
           "question": "Brakes (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 3,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1154,7 +1704,12 @@
         },
         {
           "question": "Fire Ext &/or Fire Supression Unit - (extinguisherpresent and in date)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 4,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1164,7 +1719,12 @@
         },
         {
           "question": "EStop Functioning (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 5,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1174,7 +1734,12 @@
         },
         {
           "question": "Horn (serviceable or N/A if not-installed))",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 6,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1184,7 +1749,12 @@
         },
         {
           "question": "Seat Belt and Mounting (intact & servicable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 7,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1194,7 +1764,12 @@
         },
         {
           "question": "Reversing Alarm (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 8,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1204,7 +1779,12 @@
         },
         {
           "question": "Rotating or Flashing Beacon (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 9,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1214,7 +1794,12 @@
         },
         {
           "question": "ROPS intact",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 10,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1224,7 +1809,12 @@
         },
         {
           "question": "Safety pin in use",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 11,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1234,7 +1824,12 @@
         },
         {
           "question": " Tracks/ Tyres/ Rollers (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 12,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1244,7 +1839,12 @@
         },
         {
           "question": " Windows and mirrors (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 13,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1254,7 +1854,12 @@
         },
         {
           "question": "Hydraulic oil check level & leaks (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 14,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1264,7 +1869,12 @@
         },
         {
           "question": " Gauges serviceable",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 15,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1274,7 +1884,12 @@
         },
         {
           "question": " Transmission oil check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 16,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1284,7 +1899,12 @@
         },
         {
           "question": "Two way radio (serviceable or N/A if not-installed) use handheld if not Pass",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 17,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1294,7 +1914,12 @@
         },
         {
           "question": "Steps, rails and hand holds (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 18,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1304,7 +1929,12 @@
         },
         {
           "question": "Seat functional (no faults)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 19,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1314,7 +1944,12 @@
         },
         {
           "question": "Radiator check level & leaks",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 20,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1325,7 +1960,12 @@
         {
           "question": "GETS and bucket damage (serviceable or N/A if not-installed)",
           "Title": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 22,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1335,7 +1975,12 @@
         },
         {
           "question": "Belts and pulleys",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 23,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1345,7 +1990,12 @@
         },
         {
           "question": "Window wipers (serviceable or N/A if not-installed)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 24,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1355,7 +2005,12 @@
         },
         {
           "question": "Air conditioner working (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 25,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1365,7 +2020,12 @@
         },
         {
           "question": "Lights & indicators (serviceable or N/A if notinstalled)",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 26,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1375,7 +2035,12 @@
         },
         {
           "question": "Air filters - inner filter is clean",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 27,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1385,7 +2050,12 @@
         },
         {
           "question": "Check for material in muffler housing",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 28,
           "expectedValue": "Y",
           "isRequired": "",
@@ -1395,7 +2065,12 @@
         },
         {
           "question": "Pins and bushes wear",
-          "choices": [{ "label": "PASS", "value": "Y" }],
+          "choices": [
+            {
+              "label": "PASS",
+              "value": "Y"
+            }
+          ],
           "itemID": 29,
           "expectedValue": "Y",
           "isRequired": "",

@@ -10,6 +10,7 @@ import { getUnixTime } from 'date-fns';
 
 const pageSize = 6;
 const from_to_diff = 7;
+const baseUrl = 'http://localhost:8000' || '';
 
 interface IFilterParams {
   pageIndex: number;
@@ -38,9 +39,9 @@ const Home = () => {
   };
 
   const getSearchData = (date1, date2, asst) => {
-    // alert(JSON.stringify(asst, null, 2));
     fetch(
-      ' http://localhost:8000/data?machineLogDate_gte=' +
+      baseUrl +
+        '/data?machineLogDate_gte=' +
         getString(date1 as Date) +
         '&machineLogDate_lte=' +
         getString(date2 as Date) +

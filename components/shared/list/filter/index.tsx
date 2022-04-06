@@ -14,6 +14,7 @@ import myData from './../../../../data/db.json';
 import 'react-datepicker/dist/react-datepicker.css';
 import { useTranslateObject } from '@hooks/useTranslateObject';
 import { check } from 'prettier';
+import dataServices from '@services/dataServices';
 
 registerLocale('en', en);
 registerLocale('zh', zh);
@@ -23,6 +24,7 @@ interface IFilterData {
   from_date: string;
   to_date: string;
   asset: string;
+  ques: string;
 }
 
 const Filter: FC<{
@@ -100,6 +102,7 @@ const Filter: FC<{
             <PrimaryButton
               text={t(' SELECT DEFAULT ')}
               className='bg-orange text-white'
+              onClick={() => dataServices.addDefault(formik.values.ques)}
             />
           </FilterSelectItem>
         </fieldset>

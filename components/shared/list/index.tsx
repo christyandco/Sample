@@ -14,6 +14,7 @@ import Popup from 'reactjs-popup';
 import QuestionPopup from './header/QuestionPopup';
 import Update from './header/Update';
 import myData from './../../../data/db.json';
+import dataServices from '@services/dataServices';
 
 interface ITaskGridData {
   date: string;
@@ -72,6 +73,7 @@ const TicketList: FC<{
 
     return (
       <>
+        /{' '}
         {myData.data.length > 0
           ? myData.data.map((change, index) => {
               return change.machineLogId === data1
@@ -214,7 +216,15 @@ const TicketList: FC<{
                     <PrimaryButton
                       text={t('CONFIRM')}
                       className={styles.confirm}
-                      onClick={() => ChangeStatus(item.machineLogId)}
+                      onClick={() =>
+                        /*ChangeStatus(item.machineLogId)*/
+                        dataServices
+                          .updateConfirm(item.machineLogId)
+                          .then((result: any) => {})
+                          .catch((err: any) => {
+                            alert('an-error-occurred' + err);
+                          })
+                      }
                     />
                   </div>
                 )}
