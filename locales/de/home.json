@@ -1,0 +1,22 @@
+{
+  "filter-filters": "Deutsch Filters",
+  "filter-from": "Deutsch From",
+  "filter-to": "Deutsch To",
+  "filter-status": "Deutsch Status",
+  "filter-category": "Deutsch Category",
+  "filter-priority": "Deutsch Priority",
+  "filter-summary": "Deutsch Summary",
+  "filter-from-date-required": "Deutsch Please select From date.",
+  "filter-from-date-greater": "Deutsch From date cannot be greater than today.",
+  "filter-to-date-required": "Deutsch Please select To date.",
+  "filter-to-date-greater": "Deutsch To date cannot be greater than today.",
+  "filter-to-date-should-be-greater": "Deutsch To date should be greater than From date.",
+  "filter-select-status": "Deutsch Select Status",
+  "filter-select-category": "Deutsch Select Category",
+  "filter-select-priority": "Deutsh Select Priority",
+  "list-ticket-id": "Deutsch Ticket ID",
+  "list-ticket-summary": "Deutsch Ticket Summary",
+  "list-created-date": "Deutsch Created Date",
+  "list-created-by": "Deutsch Created By",
+  "list-action": "Deutsch Action"
+}

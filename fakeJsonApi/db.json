@@ -1,0 +1,352 @@
+{
+  "category": ["Bug", "Task", "Feature"],
+  "priority": ["Minor", "Normal", "Major", "Critical", "Show-stopper"],
+  "status": [
+    "Submitted",
+    "Open",
+    "In Progress",
+    "To be discussed",
+    "Incomplete",
+    "Can't Reproduce",
+    "Fixed",
+    "Reopened",
+    "Verified"
+  ],
+  "application": [
+    { "appCode": "PTF", "applicationName": "IndustryApps Platform" },
+    { "appCode": "ADM", "applicationName": "Admin" },
+    { "appCode": "PRD", "applicationName": "Product" },
+    { "appCode": "CMP", "applicationName": "Component" },
+    { "appCode": "MAT", "applicationName": "Material" },
+    { "appCode": "TOOL", "applicationName": "Tool Master" },
+    { "appCode": "EST", "applicationName": "Estimate" },
+    { "appCode": "ADO", "applicationName": "Azure DevOps" }
+  ],
+  "plant": [
+    { "plantId": "RIO", "plantName": "Rio" },
+    { "plantId": "BLN", "plantName": "Berlin" },
+    { "plantId": "MSW", "plantName": "Moscow" }
+  ],
+  "stateTransition": [
+    { "current": "Submitted", "next": ["Open", "In Progress"] },
+    {
+      "current": "Open",
+      "next": ["In Progress", "To be discussed", "Incomplete"]
+    },
+    {
+      "current": "In Progress",
+      "next": ["To be discussed", "Incomplete", "Can't Reproduce", "Fixed"]
+    },
+    { "current": "To be discussed", "next": ["In Progress", "Fixed"] },
+    { "current": "Incomplete", "next": ["In Progress", "Open"] },
+    {
+      "current": "Can't Reproduce",
+      "next": ["To be discussed", "In Progress"]
+    },
+    { "current": "Fixed", "next": ["Verified", "Reopened"] },
+    {
+      "current": "Reopened",
+      "next": ["In Progress", "To be discussed", "Incomplete"]
+    },
+    { "current": "Verified", "next": [] }
+  ],
+  "me": [
+    {
+      "token": "lb-tk",
+      "userId": 1,
+      "userName": "libin",
+      "firstName": "Libin",
+      "lastName": "Babu",
+      "email": "boson@bytestrone.com",
+      "companyType": "customer",
+      "companyCode": "SLOWIMO",
+      "companyName": "SLOWIMO Company"
+    },
+    {
+      "token": "vj-tk",
+      "userId": 2,
+      "userName": "vijesh",
+      "firstName": "Vijesh",
+      "lastName": "Ezhuthan",
+      "email": "boson@bytestrone.com",
+      "companyType": "customer",
+      "companyCode": "SLOWIMO",
+      "companyName": "SLOWIMO Company"
+    },
+    {
+      "token": "an-tk",
+      "userId": 3,
+      "userName": "aneesh",
+      "firstName": "Aneesh",
+      "lastName": "Kunjuveettil",
+      "email": "aneesh@bytestrone.com",
+      "companyType": "vendor",
+      "companyCode": "Bytestrone",
+      "companyName": "Bytestrone India Pvt Ltd"
+    },
+    {
+      "token": "sd-tk",
+      "userId": 4,
+      "userName": "sandeep",
+      "firstName": "Sandeep",
+      "lastName": "Sreekumar",
+      "email": "dev@bytestrone.com",
+      "companyType": "customer",
+      "companyCode": "Tesla",
+      "companyName": "Tesla Corporation"
+    }
+  ],
+  "applicationForUser": [
+    {
+      "token": "an-tk",
+      "appCode": "PTF",
+      "applicationName": "IndustryApps"
+    },
+    {
+      "token": "an-tk",
+      "appCode": "ADM",
+      "applicationName": "Admnin"
+    },
+    {
+      "token": "an-tk",
+      "appCode": "PRD",
+      "applicationName": "Product"
+    },
+    {
+      "token": "an-tk",
+      "appCode": "CMP",
+      "applicationName": "Component"
+    },
+    {
+      "token": "an-tk",
+      "appCode": "MAT",
+      "applicationName": "Material"
+    },
+    {
+      "token": "an-tk",
+      "appCode": "TOOL",
+      "applicationName": "Tool Master"
+    },
+    {
+      "token": "an-tk",
+      "appCode": "EST",
+      "applicationName": "Estimate"
+    },
+    {
+      "token": "lb-tk",
+      "appCode": "ADO",
+      "applicationName": "Azure DevOps"
+    },
+    {
+      "token": "lb-tk",
+      "appCode": "PTF",
+      "applicationName": "IndustryApps"
+    },
+    {
+      "token": "lb-tk",
+      "appCode": "ADM",
+      "applicationName": "Admin"
+    },
+    {
+      "token": "lb-tk",
+      "appCode": "PRD",
+      "applicationName": "Product"
+    },
+    {
+      "token": "lb-tk",
+      "appCode": "CMP",
+      "applicationName": "Component"
+    },
+    {
+      "token": "lb-tk",
+      "appCode": "MAT",
+      "applicationName": "Material"
+    },
+    {
+      "token": "vj-tk",
+      "appCode": "PTF",
+      "applicationName": "IndustryApps"
+    },
+    {
+      "token": "vj-tk",
+      "appCode": "ADM",
+      "applicationName": "Admin"
+    },
+    {
+      "token": "vj-tk",
+      "appCode": "PRD",
+      "applicationName": "Product"
+    },
+    {
+      "token": "vj-tk",
+      "appCode": "CMP",
+      "applicationName": "Component"
+    },
+    {
+      "token": "vj-tk",
+      "appCode": "MAT",
+      "applicationName": "Material"
+    },
+    {
+      "token": "sd-tk",
+      "appCode": "ADM",
+      "applicationName": "Admin"
+    },
+    {
+      "token": "sd-tk",
+      "appCode": "TOOL",
+      "applicationName": "Tool Master"
+    },
+    {
+      "token": "sd-tk",
+      "appCode": "EST",
+      "applicationName": "Estimate"
+    }
+  ],
+  "ticket": [
+    {
+      "ticketId": 1,
+      "createdByUser": "Sandip",
+      "createdDate": "2021-08-12T12:00:08.380Z",
+      "appCode": "ADM",
+      "applicationName": "Admin",
+      "category": "Bug",
+      "priority": "Critical",
+      "status": "Can't Reproduce",
+      "summary": "A critical issue with Admin app",
+      "description": "I'd like to add to this element tooltip with the same content, but I want it to appear only when the content is long and the ellipsis appear on screen.",
+      "files": [
+        {
+          "name": "bytestrone-services.pdf",
+          "id": "123",
+          "size": 1024,
+          "mimeType": "image/jpeg",
+          "metaData": "",
+          "url": "https://bytestrone.myjetbrains.com/youtrack/api/files/8-21?sign=MTYyOTUwNDAwMDAwMHwxLTE4fDgtMjF8bXpoZVVqX0kzVF9Ma0NTMlQ5dlp4akRNWXFTc1phRlBr%0D%0AaDlmVjZ3ZXFUaw0K%0D%0A&updated=1629122715962",
+          "thumbnailUrl": "https://bytestrone.myjetbrains.com/youtrack/api/files/140-22?w=96&h=64&sign=MTYyOTUwNDAwMDAwMHwxLTE4fDE0MC0yMnxmbE9xR3ZvRnh0S29MeDNodGZjYVFDc2JQdHF6al9x%0D%0AM2o4djBQRGp2Y1BrDQo%0D%0A",
+          "visibility": ""
+        },
+        {
+          "name": "bytestrone.pdf",
+          "id": "124",
+          "size": 1024,
+          "mimeType": "image/jpeg",
+          "metaData": "",
+          "url": "https://bytestrone.myjetbrains.com/youtrack/api/files/8-21?sign=MTYyOTUwNDAwMDAwMHwxLTE4fDgtMjF8bXpoZVVqX0kzVF9Ma0NTMlQ5dlp4akRNWXFTc1phRlBr%0D%0AaDlmVjZ3ZXFUaw0K%0D%0A&updated=1629122715962",
+          "thumbnailUrl": "https://bytestrone.myjetbrains.com/youtrack/api/files/140-22?w=96&h=64&sign=MTYyOTUwNDAwMDAwMHwxLTE4fDE0MC0yMnxmbE9xR3ZvRnh0S29MeDNodGZjYVFDc2JQdHF6al9x%0D%0AM2o4djBQRGp2Y1BrDQo%0D%0A",
+          "visibility": ""
+        }
+      ]
+    },
+    {
+      "ticketId": 2,
+      "createdByUser": "Libin",
+      "createdDate": "2021-08-12T12:00:08.380Z",
+      "appCode": "PRD",
+      "applicationName": "Product",
+      "category": "Task",
+      "priority": "Normal",
+      "status": "In Progress",
+      "summary": "This is change request ticket for Product app",
+      "description": "I'd like to add to this element tooltip with the same content, but I want it to appear only when the content is long and the ellipsis appear on screen.",
+      "files": []
+    },
+    {
+      "ticketId": 3,
+      "appCode": "PTF",
+      "applicationName": "IndustryApps Platform",
+      "category": "Feature",
+      "priority": "Minor",
+      "status": "To be discussed",
+      "summary": "This is suggestion for Component app with formatting example spanning two lines",
+      "description": "<h2>Heading 1</h2><h3>Heading 2</h3><h4>Heading 3</h4><p>Normal</p><p>Normal, <strong>Bold</strong>, <i>Italic</i>, <i><strong>Bold Italic</strong></i></p><ul><li>Unordered List<i><strong>&nbsp;</strong></i></li></ul><ol><li>Numbered list</li></ol>",
+      "files": [],
+      "createdDate": "2021-08-27T06:35:18.359Z",
+      "createdByUser": "Libin"
+    },
+    {
+      "ticketId": 4,
+      "appCode": "MAT",
+      "applicationName": "A very long named application",
+      "category": "Bug",
+      "priority": "Show-stopper",
+      "status": "Fixed",
+      "summary": "An example of a ticket with lot of description & comments",
+      "description": "<h2>Heading 1</h2><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>This will contain a lot of text.</p><p>&nbsp;</p>",
+      "files": [],
+      "createdDate": "2021-08-27T06:51:51.591Z",
+      "createdByUser": "This is an extra long named user for testing"
+    },
+    {
+      "ticketId": 5,
+      "appCode": "Tool",
+      "applicationName": "Tool",
+      "category": "Bug",
+      "priority": "Normal",
+      "status": "Reopened",
+      "summary": "CXXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXC",
+      "description": "<p>No comments for this ticket</p>",
+      "files": [],
+      "createdDate": "2021-08-27T06:53:41.251Z",
+      "createdByUser": "Vijesh"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "ticketId": 1,
+      "comment": "useBlockLayout is a plugin hook that adds support for headers and cells to be rendered as inline-block divs (or other non-table elements) with explicit width. Similar to the useAbsoluteLayout hook, this becomes useful if and when you need to virtualize rows and cells for performance.",
+      "createdDate": "2021-08-19T12:00:08.380Z",
+      "createdBy": "Company Name"
+    },
+    {
+      "id": 2,
+      "ticketId": 1,
+      "comment": "useBlockLayout is a plugin hook that adds support for headers and cells to be rendered as inline-block divs (or other non-table elements) with explicit width. Similar to the useAbsoluteLayout hook, this becomes useful if and when you need to virtualize rows and cells for performance.",
+      "createdDate": "2021-08-16T13:00:08.380Z",
+      "createdBy": "Company Name"
+    },
+    {
+      "id": 3,
+      "ticketId": 2,
+      "comment": "useBlockLayout is a plugin hook that adds support for headers and cells to be rendered as inline-block divs (or other non-table elements) with explicit width. Similar to the useAbsoluteLayout hook, this becomes useful if and when you need to virtualize rows and cells for performance.",
+      "createdDate": "2021-08-15T14:00:08.380Z",
+      "createdBy": "Company Name"
+    },
+    {
+      "ticketId": 3,
+      "comment": "<p>Comment 1</p>",
+      "createdDate": "2021-08-27T06:31:39.944Z",
+      "createdBy": "User1",
+      "id": 4
+    },
+    {
+      "ticketId": 4,
+      "comment": "<p>A new comment added with formatting</p><h2>Heading 1</h2><h3>Heading 2</h3>",
+      "createdDate": "2021-08-27T06:37:10.684Z",
+      "createdBy": "User1",
+      "id": 5
+    },
+    {
+      "ticketId": 4,
+      "comment": "<h3>Heading 2</h3><p>An example of lot of comments…</p><p>An example of lot of comments…</p><p>An example of lot of comments…</p><p>&nbsp;</p>",
+      "createdDate": "2021-08-27T06:52:36.282Z",
+      "createdBy": "User1",
+      "id": 6
+    },
+    {
+      "ticketId": 4,
+      "comment": "<h3>Heading 2</h3><p>An example of lot of comments…</p><p>An example of lot of comments…</p><p>An example of lot of comments…</p><p>&nbsp;</p>",
+      "createdDate": "2021-08-27T06:52:38.241Z",
+      "createdBy": "User1",
+      "id": 7
+    },
+    {
+      "ticketId": 4,
+      "comment": "<h3>Heading 2</h3><p>An example of lot of comments…</p><p>An example of lot of comments…</p><p>An example of lot of comments…</p><p>&nbsp;</p>",
+      "createdDate": "2021-08-27T06:52:42.639Z",
+      "createdBy": "User1",
+      "id": 8
+    }
+  ]
+}

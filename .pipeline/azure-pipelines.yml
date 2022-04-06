@@ -1,0 +1,122 @@
+# azure-pipelines.yml
+
+# Unique name for the build being generated
+# name: $(Date:MMddyyyy).$(BuildID)-$(SourceBranchName)
+
+resources:
+  repositories:
+  - repository: devops
+    type: git
+    name: 'Customer Support App/devops'
+    ref: refs/heads/develop 
+#   endpoint: myServiceConnection # Azure DevOps service connection
+#   - repository: 'repo-name'
+#     type: 'git'
+#     name: 'repo-path'
+#     ref: 'refs/heads/master'
+#   pipelines: # Execute this pipeline when a pipeline that this pipeline is depdendent on is successful
+#   - pipeline: securitylib   # Name of the pipeline resource
+#     source: security-lib-ci # Name of the pipeline referenced by the pipeline resource
+#     project: FabrikamProject # Required only if the source pipeline is in another project
+#     trigger: 
+#       branches:
+#         include: 
+#         - releases/*
+#         exclude:
+#         - releases/old*
+
+# Schedule the pipeline to be executed at specific days and times
+# Cron syntax is used to define the schedule. Refer: https://github.com/atifaziz/NCrontab/wiki/Crontab-Expression
+# schedules:
+# - cron: "0 12 * * 0" # mm HH DD MM DW; mm: 0-59, HH: 0-23, DD: 1-31, MM: 1-12, DW: 0-6 
+#   displayName: "Weekly Sunday Build"
+#   branches:
+#     include:
+#     - main
+#   always: true
+
+variables:
+  - group: 'ia-acr-variable-group'
+  - group: 'ia-csa-api-dev'
+  - template: templates/variables/build.yml@devops
+    parameters:
+      agentName: "ubuntu-latest"
+      agentPool: "AGT-POOL-LNX-NON-PROD"
+      systemDebugValue: false
+  - template: templates/variables/container.yml@devops
+    parameters:
+      dockerRegistryServiceConnectionName: '$(acr-service-connection-name)'
+      dockerfilePath: "$(Build.SourcesDirectory)/.container/dockerfile"
+      buildContext: "$(Build.SourcesDirectory)"
+      imageRepository: "iapps-bytestrone-customer-support-app-ui"
+      buildAndPushImage: true
+  - template: templates/variables/semver-version.yml@devops
+    parameters:
+      majorVersion: 0
+      minorVersion: 1
+  - template: templates/variables/compose.yml@devops
+    parameters:
+      sshServiceConnection: 'SSH-Service-Connection-DEV'
+      sourceFolder: "$(System.ArtifactsDirectory)/drop"
+      targetFolder: "csa-deploy"
+  - name: sonarSvcConnection 
+    value: 'Sonar-Service-Connection-DEV'
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - main
+    - develop
+    - release/*
+  # exclude:
+  # - releases/old*
+  # Specify the paths to be excluded from triggers
+  # paths:
+  #  exclude:
+  #    - test/*
+
+stages:
+  # Build the nodeJS application and publish Sonar report
+  - stage: Build
+    jobs:
+    - job: BuildNodeJS
+      displayName: 'Build NodeJS Code'
+      pool:
+        name: $(agentPool)
+      steps:
+      # - checkout: self
+      #   path: ui
+      # - checkout: devops
+      #   path: devops
+      - template: templates/steps/version-numbering.yml@devops # Referring an external template
+      - template: templates/steps/npm-build-with-sonar.yml@devops # Referring an external template
+        parameters:
+          nodeVersion: '12.x'
+          npmCommand: 'build'
+          npmTestCommand: 'test-ci'
+          workingDirectory: '$(Build.SourcesDirectory)'
+          sonarProjectKey: 'CSA-UI'
+          sonarServiceConnection: '$(sonarSvcConnection)'
+  
+  # Build the Docker Image and Publish to Private Registry
+  - stage: BuildImageAndPublish
+    jobs:
+    - job: BuildImageAndPublish
+      displayName: 'Build Docker Image and Publish'
+      pool:
+        vmImage: $(agentName)
+      steps:
+      - ${{ if eq(variables.buildAndPushImage, 'true') }}:
+        - template: templates/steps/docker-build-push.yml@devops # Referring an external template
+          parameters:
+            dockerRegistryServiceConnection: $(dockerRegistryServiceConnectionName)
+            imageRepository: '$(imageRepository)'
+            dockerfilePath: '$(Build.SourcesDirectory)/.container/dockerfile'
+            dockerBuildContext: '$(Build.SourcesDirectory)'
+            tag: '$(Build.BuildNumber)'
+      - bash: |
+          echo $(jq -n --arg version "$(Build.BuildNumber)" '{uiVersion: $version}') > $(Build.ArtifactStagingDirectory)/ui-version.json
+        displayName: 'Record Version Details'
+      - publish: $(Build.ArtifactStagingDirectory)
+        artifact: ui-version-artifact

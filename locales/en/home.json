@@ -1,0 +1,22 @@
+{
+  "filter-filters": "Filters",
+  "filter-from": "From",
+  "filter-to": "To",
+  "filter-status": "Status",
+  "filter-category": "Category",
+  "filter-priority": "Priority",
+  "filter-summary": "Summary",
+  "filter-from-date-required": "Please select From date.",
+  "filter-from-date-greater": "From date cannot be greater than today.",
+  "filter-to-date-required": "Please select To date.",
+  "filter-to-date-greater": "To date cannot be greater than today.",
+  "filter-to-date-should-be-greater": "To date should be greater than From date.",
+  "filter-select-status": "Select Status",
+  "filter-select-category": "Select Category",
+  "filter-select-priority": "Select Priority",
+  "list-ticket-id": "Ticket ID",
+  "list-ticket-summary": "Ticket Summary",
+  "list-created-date": "Created Date",
+  "list-created-by": "Created By",
+  "list-action": "Action"
+}

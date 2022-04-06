@@ -1,0 +1,1 @@
+json-server --watch --port 3004 db.json --middlewares singular.js

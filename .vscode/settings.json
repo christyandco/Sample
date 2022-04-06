@@ -1,0 +1,56 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.enableDebugLogs": true,
+  "gitHistory.showFileHistorySplit": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "foreground": "blue",
+    "background": "red",
+    "opacity": 50,
+    "iconColour": "yellow"
+  },
+  "todo-tree.tree.expanded": true,
+  "todo-tree.tree.tagsOnly": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line"
+    },
+    "FIXME": {
+      "foreground": "black",
+      "iconColour": "blue",
+      "gutterIcon": true
+    },
+    "[ ]": {
+      "icon": "x-circle-fill",
+      "iconColour": "red",
+      "background": "#ff000080"
+    },
+    "[x]": {
+      "icon": "check-circle",
+      "iconColour": "green",
+      "background": "#00ff0080"
+    }
+  },
+  "sonarlint.connectedMode.project": {
+    "connectionId": "CSA-Dev",
+    "projectKey": "CSA-UI"
+  }
+}

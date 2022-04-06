@@ -1,0 +1,12 @@
+{
+  "locales": ["en", "zh", "de"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/create": ["create"],
+    "rgx:^/edit": ["create"],
+    "rgx:^/view": ["create"],
+    "rgx:^/list": ["home"],
+    "/": ["home"]
+  }
+}

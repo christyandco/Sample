@@ -1,0 +1,19 @@
+{
+  "drop-files-here": "Drop files here",
+  "click-attach": "Click to attach",
+  "upload-files": "Upload Files",
+  "max-mb": "(Max {{size}} MB)",
+  "select-application": "Select Application",
+  "select-category": "Select Category",
+  "select-priority": "Select Priority",
+  "select-status": "Select Status",
+  "ticket-created": "A new ticket ({{ ticketId }}) has been created successfully.",
+  "ticket-edited": "Ticket ({{ ticketId }}) has been edited successfully.",
+  "comment-created": "A new comment has been added.",
+  "please-select-application": "Please select application.",
+  "please-select-category": "Please select category.",
+  "please-select-priority": "Please select priority.",
+  "please-select-status": "Please select status.",
+  "please-select-summary": "Please select summary.",
+  "please-save-issue": "Please save or clear the changes in issue."
+}

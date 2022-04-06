@@ -1,0 +1,138 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://tailwindcss.com/docs/preflight */
+/* https://tailwindcss.com/docs/adding-base-styles */
+@layer base {
+  h1 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-xl;
+    @apply font-bold;
+  }
+  h4 {
+    @apply text-lg;
+    @apply font-medium;
+  }
+  /* TODO: list intendation is not working */
+  ul {
+    @apply list-disc;
+    @apply list-inside;
+  }
+  ol {
+    @apply list-decimal;
+    @apply list-inside;
+  }
+}
+
+:root {
+  --select-border: #777;
+  --select-focus: rgb(72, 72, 94);
+  --select-arrow: var(--select-border);
+}
+
+[data-theme='industry-app'] {
+  --primary: #e15a2d;
+  --background: theme('colors.black');
+  --background-secondary: theme('colors.gray.800');
+  --primary-dark: theme('colors.gray.300');
+  --primary-medium: theme('colors.gray.200');
+  --primary-light: theme('colors.gray.100');
+}
+
+[data-theme='vendor-app'] {
+  --primary: #205deb;
+  --background: theme('colors.white');
+  --accent-dark: theme('colors.gray.900');
+  --accent-medium: theme('colors.gray.700');
+  --accent-light: theme('colors.gray.500');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  /*background-color: #eceef3;*/
+  min-height: 100vh;
+}
+
+/*Selectbox*/
+
+select {
+  background-color: white;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+  border-radius: 4px;
+  display: inline-block;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+
+  @apply text-sm;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+/*CK Editor*/
+.ck-editor__editable_inline {
+  min-height: 250px;
+  max-height: 350px;
+}
+
+#addComment .ck-editor__editable_inline {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.ck-file-dialog-button {
+  display: none !important;
+}
+
+.ck-file-dialog-button {
+  display: none !important;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.bg-orange {
+  background-color: #e15a2d;
+}
+
+.bg-grey {
+  background-color: #777;
+}

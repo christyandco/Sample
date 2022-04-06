@@ -1,0 +1,4 @@
+.primary {
+  min-width: 100px;
+  @apply p-2 rounded-md h-9 font-bold;
+}

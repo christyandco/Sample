@@ -1,0 +1,41 @@
+.pop {
+  @apply bg-white rounded-lg;
+  border-color: grey;
+  border-width: 2px;
+  max-width: 95vw;
+  width: 790px;
+  max-height: 500px;
+  padding: 30px;
+  overflow: scroll;
+  color: black;
+}
+
+.shared_pop_close {
+  @apply mb-3;
+}
+
+.rows {
+  @apply font-bold text-base;
+}
+
+.tab4 {
+  border: 2px solid grey;
+  width: 100%;
+}
+
+.tab4 td p {
+  margin-left: 10px;
+}
+.tab4_td {
+  border: 2px solid grey;
+  width: 15%;
+  text-align: center;
+}
+
+.heading {
+  @apply text-base font-bold;
+}
+
+.tab {
+  margin-top: 15px;
+}

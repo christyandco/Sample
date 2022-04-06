@@ -1,0 +1,19 @@
+{
+  "drop-files-here": "Deutsch Drop files here",
+  "click-attach": "Deutsch Click to attach",
+  "upload-files": "Deutsch Upload Files",
+  "max-mb": "Deutsch (Max {{size}} Mb)",
+  "select-application": "Deutsch Select Application",
+  "select-category": "Deutsch Select Category",
+  "select-priority": "Deutsch Select Priority",
+  "select-status": "Deutsch Select Status",
+  "ticket-created": "Deutsch A new ticket ({{ ticketId }}) has been created successfully.",
+  "ticket-edited": "Deutsch Ticket with id -({{ ticketId }}) has been edited successfully.",
+  "comment-created": "Deutsch A new comment has been added.",
+  "please-select-application": "Deutsch Please select application.",
+  "please-select-category": "Deutsch Please select category.",
+  "please-select-priority": "Deutsch Please select priority.",
+  "please-select-status": "Deutsch Please select status.",
+  "please-select-summary": "Deutsch Please select summary.",
+  "please-save-issue": "Deutsch Please save or clear the changes in issue."
+}

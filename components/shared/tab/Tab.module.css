@@ -1,0 +1,8 @@
+.tabHeader {
+  @apply md:px-10 rounded-md bg-white text-xs md:text-sm font-bold inline-flex w-full;
+  list-style-type: none;
+}
+
+.tabItem {
+  @apply px-4 py-4 font-semibold text-black rounded-t;
+}

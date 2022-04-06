@@ -1,0 +1,53 @@
+{
+  "title": "Kundensupport-Anwendung",
+  "menu-list-ticket": "Deutsch List Ticket",
+  "menu-create-edit-ticket": "Deutsch Create/Edit Ticket",
+  "menu-create-ticket": "Deutsch Create Ticket",
+  "menu-create-ticket-short": "Deutsch Create",
+  "menu-view-ticket": "Deutsch View Ticket",
+  "menu-list-ticket-short": "Deutsch List",
+  "menu-create-edit-ticket-short": "Deutsch Create/Edit",
+  "menu-edit-view-ticket": "Deutsch View/Edit Ticket",
+  "menu-edit-view-ticket-short": "Deutsch View/Edit",
+  "menu-view-ticket-short": "Deutsch View",
+  "application": "Deutsch Application",
+  "category": "Deutsch Category",
+  "priority": "Deutsch Priority",
+  "status": "Deutsch Status",
+  "search": "Deutsch SEARCH",
+  "clear": "Deutsch CLEAR",
+  "create": "Deutsch CREATE",
+  "update": "Deutsch UPDATE",
+  "cancel": "Deutsch CANCEL",
+  "summary": "Deutsch Summary",
+  "attachments": "Deutsch Attachments",
+  "an-error-occurred": "Deutsch An error occurred. Please try again.",
+  "or": "Deutsch or",
+  "comments": "Deutsch Comments",
+  "add-comment": "Deutsch ADD COMMENT",
+  "no-data": "Deutsch No Data Available.",
+  "page-not-found": "Deutsch Oops, Page Not Found.",
+  "category-list": {
+    "Bug": "Deutsch Bug",
+    "Task": "Deutsch Task",
+    "Feature": "Deutsch Feature"
+  },
+  "priority-list": {
+    "Minor": "Deutsch Minor",
+    "Normal": "Deutsch Normal",
+    "Major": "Deutsch Major",
+    "Critical": "Deutsch Critical",
+    "Show-stopper": "Deutsch Show-stopper"
+  },
+  "status-list": {
+    "Submitted": "Deutsch Submitted",
+    "Open": "Deutsch Open",
+    "In Progress": "Deutsch In Progress",
+    "To be discussed": "Deutsch To be discussed",
+    "Incomplete": "Deutsch Incomplete",
+    "Can't Reproduce": "Deutsch Can't Reproduce",
+    "Fixed": "Deutsch Fixed",
+    "Reopened": "Deutsch Reopened",
+    "Verified": "Deutsch Verified"
+  }
+}

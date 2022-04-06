@@ -1,0 +1,22 @@
+{
+  "filter-filters": "筛选",
+  "filter-from": "开始日期",
+  "filter-to": "结束日期",
+  "filter-status": "状态",
+  "filter-category": "类别",
+  "filter-priority": "优先级",
+  "filter-summary": "总结",
+  "filter-from-date-required": "请选择开始日期",
+  "filter-from-date-greater": "开始日期不能晚于今天",
+  "filter-to-date-required": "请选择结束日期",
+  "filter-to-date-greater": "结束日期不能晚于今天",
+  "filter-to-date-should-be-greater": "结束日期不能晚于开始日期.",
+  "filter-select-status": "选择状态",
+  "filter-select-category": "选择类别",
+  "filter-select-priority": "选择优先级",
+  "list-ticket-id": "工作票编号",
+  "list-ticket-summary": "工作票总结",
+  "list-created-date": "创建日期",
+  "list-created-by": "创建人",
+  "list-action": "操作"
+}

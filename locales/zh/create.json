@@ -1,0 +1,19 @@
+{
+  "drop-files-here": "将文件拖放到此处",
+  "click-attach": "点击附上",
+  "upload-files": "上传文件",
+  "max-mb": "(最大{{size}} Mb)",
+  "select-application": "选择应用",
+  "select-category": "选择类别",
+  "select-priority": "选择优先级",
+  "select-status": "选择状态",
+  "ticket-created": "工作票 ({{ ticketId }}) 创建成功",
+  "ticket-edited": "Chineese with id -({{ ticketId }}) has been edited successfully.",
+  "comment-created": "成功添加新注释",
+  "please-select-application": "请选择应用。",
+  "please-select-category": "请选择类别",
+  "please-select-priority": "请选择优先级",
+  "please-select-status": "请选择状态",
+  "please-select-summary": "请选择摘要",
+  "please-save-issue": "请保存或清除问题中的更改。"
+}
