@@ -87,21 +87,10 @@ const Filter: FC<{
               key='k'
             >
               <option placeholder='Type'></option>
-              {myData.data?.map((obj) => {
+              {myData.checklist?.map((obj) => {
                 return (
-                  <option key={obj.id} value={obj.id}>
-                    {obj.machineChecklist.map((check) => {
-                      if (check.CheckListItemID in array) {
-                        return;
-                      } else {
-                        array.push(check.CheckListItemID);
-                        return check.CheckListItemID;
-                      }
-
-                      /*array.length > 0
-                        ? array.filter((a, b, c) => c.indexOf(a) === b)
-                        : '';*/
-                    })}
+                  <option key={obj.checklistName} value={obj.checklistName}>
+                    {obj.checklistName}
                   </option>
                 );
               })}

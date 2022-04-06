@@ -23,17 +23,19 @@ const QuestionPopup = ({ isOpen, onClose, data }) => {
                 <table key='k1' className={styles.tab4}>
                   <tr className={styles.heading}>
                     <td colSpan='2'>
-                      <p>{item.Title}</p>
+                      <p>{item.question}</p>
                     </td>
-                    {item.ExpectedValue == item.ValueRecordingNeeded ? (
-                      <td key='k2' className={styles.tab4_td}>
-                        <p className='text-green-500'> Pass</p>
-                      </td>
-                    ) : (
-                      <td key='k2' className={styles.tab4_td}>
-                        <p className='text-red-500'>N/A</p>
-                      </td>
-                    )}
+                    {item.choices?.map((k) => {
+                      return item.expectedValue != k.value ? (
+                        <td key='k2' className={styles.tab4_td}>
+                          <p className='text-red-500'>N/A</p>
+                        </td>
+                      ) : (
+                        <td key='k2' className={styles.tab4_td}>
+                          <p className=' text-green-500'> {k.label}</p>
+                        </td>
+                      );
+                    })}
                   </tr>
                 </table>
               );
