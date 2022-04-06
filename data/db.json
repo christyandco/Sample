@@ -2086,19 +2086,25 @@
       "checklistId": 3453646,
       "checklistName": "Demo_Chk1",
       "defaultSelected": "N",
-      "plantId": "323"
+      "id": "323"
     },
     {
       "checklistId": 21332,
       "checklistName": "Demo_Chk2",
       "defaultSelected": "N",
-      "plantId": "232323"
+      "id": "232323"
     },
     {
       "checklistId": 12343,
       "checklistName": "Demo_Chk4",
       "defaultSelected": "N",
-      "plantId": "54456"
+      "id": "54456"
+    },
+    {
+      "checklistId": 34536,
+      "checklistName": "Demo_Chk7",
+      "defaultSelected": "Y",
+      "id": "343"
     }
   ]
 }

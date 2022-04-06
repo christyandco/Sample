@@ -13,25 +13,14 @@ class DataServices {
   }
 
   public async addDefault(data2) {
-    const formData = new FormData();
-    const myJson;
-    formData.append('defaultSelected', 'Y');
-
-    axios.put(baseUrl + `/checklist?plantId=323/defaultSelected`, {
+    let params = {
+      checklistId: 3453646,
+      checklistName: 'Demo_Chk1',
       defaultSelected: 'Y',
-    });
-    /*const res = await axios.post(
-      baseUrl + `/checklist?plantId=323/defaultSelected`,
-      {
-        defaultSelected: 'Y',
-      },
-      {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      }
-    );
-    return res;*/
+      id: 323,
+    };
+
+    let res = await axios.post('http://localhost:8000/checklist?323/', params);
   }
 }
 
